@@ -10,8 +10,8 @@ class Paper
     }
    this.image=loadImage("paper.png");   
     this.body = Bodies.circle(x, y, 30, options);
-    this.width=20;
-    this.height=20;
+    this.width=60;
+    this.height=60;
 
     World.add(world, this.body);
   }
