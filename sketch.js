@@ -16,7 +16,7 @@ function setup(){
     var canvas = createCanvas(1800, 695);
     engine = Engine.create();
     world = engine.world;
-    paper=new Paper(20,683);
+    paper=new Paper(30,683);
     rect1 = new Dustbin(1600,570,150,190);
     ground = new Ground(900,685,1800,15);
 }
